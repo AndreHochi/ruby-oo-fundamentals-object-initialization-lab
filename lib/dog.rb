@@ -1,4 +1,9 @@
+#Generate Dog object.
+#Dog object should initialize with a name and breed.
+#Dog attributes should have a getter and a setter.
+
 class Dog
+
     def initialize(name, breed = 'Mutt')
         @name = name
         @breed = breed
@@ -9,7 +14,7 @@ class Dog
     end
 
     def name
-        name
+        @name
     end
 
     def breed=(breed)
@@ -17,7 +22,7 @@ class Dog
     end
 
     def breed
-        breed
+        @breed
     end
 
 end
